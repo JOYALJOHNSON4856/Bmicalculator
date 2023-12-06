@@ -154,7 +154,7 @@ input[type=radio] {
     font-size: 80%;
   }
 
-  @media screen and (max-width:420px) {
+  @media screen and (max-width:440px) {
     .containers{
         width: 420px;
         height: 1000px;

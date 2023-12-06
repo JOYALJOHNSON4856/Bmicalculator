@@ -37,6 +37,14 @@ function imagesswomen()
 }
 function calcu()
 { 
+    var st=document.getElementById("gg");
+    if(st.textContent=='v')
+    {
+        window.alert("select gender")
+    }
+    else{
+
+    
     var overlay=document.getElementById('overlay')
     overlay.style.visibility='hidden'
     var age=document.getElementById('age').value;
@@ -129,5 +137,5 @@ function calcu()
         cms.style.backgroundImage="url('./images/obwomen-removebg-preview.png')"
         }
     }
-   
+}
 }
