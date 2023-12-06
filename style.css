@@ -1,0 +1,190 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.containers{
+    height: 603px;
+    display: flex;
+ 
+    justify-content: center;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.calculator{
+    width: 800px;
+    height: 490px;
+    background-color: black;
+    margin-top: 20px;
+}
+.head{
+width: 100%;
+height: 80px;
+background-color: rgb(63, 58, 58);
+background-position: center;
+background-size: cover;
+}
+.part{
+    width: 100%;
+    display: flex;
+
+}
+.part1{
+    width: 50%;
+    height: 480px;
+    background-color: rgb(79, 77, 77);
+    padding: 10px;
+}
+#part2{
+    width: 50%;
+    height: 480px;
+    background-color: rgb(79, 77, 77);
+}
+#men{
+    width: 50%;
+    height: 120px;
+    background-color: white;
+    background-image: url(./images/download-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    border: 2px ridge black;
+
+}
+#women{
+    width: 50%;
+    height: 120px;
+    background-color: white;
+    background-image: url(./images/png-transparent-female-woman-girl-computer-icons-svg-face-people-logo-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+    border: 2px ridge black;
+    
+}
+.gender{
+    display: flex;
+}
+
+.ages{
+    width: 200px;
+}
+.ages::placeholder{
+    text-align: center;
+    visibility: visible;
+}
+#sample{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(79, 77, 77);
+    background-position: center;
+    background-size: cover;
+    background-size: 30%;
+    background-repeat: no-repeat;
+
+
+}
+#result{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(79, 77, 77);
+    color: bisque;
+}
+#gg{
+    visibility: hidden;
+    color: rgb(79, 77, 77) ;
+}
+#overlay{
+    position: absolute;
+    width: 400px;
+    height: 480px;
+    background-position: center;
+    background-size: cover;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    visibility: visible;
+    background-color: rgb(79, 77, 77);
+    padding-top: 10px;
+}
+#conclu{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(79, 77, 77);
+
+}
+input[type=radio] {
+    opacity: 0;
+  }
+
+  #gen{
+    margin-top: 65px;
+  }
+  .contents{
+    color: white;
+    margin-top: 5px;
+  }
+  .logo{
+    height: 170px;
+    width: 380px;
+  }
+  #remove{
+    visibility: visible;
+  }
+  #removes{
+    visibility: visible;
+    text-align: justify;
+    margin-right: 20px;
+  }
+  #removess{
+    visibility: visible;
+    text-align: justify;
+  }
+  #sumit{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px ridge black;
+    background-color: black;
+    color: white;
+    font-size: 80%;
+  }
+
+  @media screen and (max-width:420px) {
+    .containers{
+        width: 420px;
+        height: 1000px;
+       background-color: black;
+    }
+    .calculator{
+        width: 420px;
+        margin-top: 0px;
+        background-color: rgb(63, 58, 58);
+    }
+    .part{
+        flex-direction: column;
+    }
+    .part1{
+        width: 100%;
+    }
+    #part2{
+        width: 100%;
+    }
+    #sample{
+        width: 100%;
+    }
+    #overlay{
+        width: 420px;
+    }
+    #removes{
+        margin: 15px;
+    }
+    .logo{
+        height: 160px;
+        width: 420px;
+      }
+  }
